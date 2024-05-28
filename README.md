@@ -11,11 +11,11 @@ Food Recommendation System designed to suggest dishes to users based on various 
 #### 2. Travily Search API
   Performs web searches to gather information about dishes, restaurants, and food trends.
 
-#### 4. Groq Integrated Llama 3 Model
+#### 3. Groq Integrated Llama 3 Model
   A state-of-the-art language model used for natural language processing and understanding user inputs.
 
 ## Features
-#### 1. Personalized Recommendations
+#### Personalized Recommendations
   Weather-Based Suggestions: Recommends dishes based on the current weather (e.g., hot soups for cold weather).
   Mood-Based Suggestions: Adapts recommendations based on the user's mood (e.g., comfort food for a sad mood).
   Dietary Preferences: Filters dishes based on whether the user is vegetarian, non-vegetarian, on a diet, or has specific dietary restrictions.
