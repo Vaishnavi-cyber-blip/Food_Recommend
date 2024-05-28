@@ -1,6 +1,6 @@
 # Zoma
 ## Food Recommending AI agents
-Food Recommendation System designed to suggest dishes to users based on various factors such as weather, mood, dietary preferences, location, and eating habits. The system utilizes Crew AI for creating specialized AI agents, Travily Search API for web searches, and Groq-integrated Llama 3 model as the LLM (Large Language Model).
+Food Recommendation System is designed to suggest dishes to users based on various factors such as weather, mood, dietary preferences, location, and eating habits. The system utilizes Crew AI for creating specialized AI agents, Travily Search API for web searches, and the Groq-integrated Llama 3 model as the LLM.
 
 ## System Components
 #### 1. Crew AI Agents
@@ -17,9 +17,9 @@ Food Recommendation System designed to suggest dishes to users based on various 
 ## Features
 #### Personalized Recommendations
   Weather-Based Suggestions: Recommends dishes based on the current weather (e.g., hot soups for cold weather).
-  Mood-Based Suggestions: Adapts recommendations based on the user's mood (e.g., comfort food for a sad mood).
+  Mood-Based Suggestions: Adapt recommendations based on the user's mood (e.g., comfort food for a sad mood).
   Dietary Preferences: Filters dishes based on whether the user is vegetarian, non-vegetarian, on a diet, or has specific dietary restrictions.
-  Location-Based Recommendations: Suggests local dishes or restaurants nearby.
+  Location-Based Recommendations: Suggest local dishes or restaurants nearby.
   Eating Habits: Tailors suggestions for food lovers (gourmet choices) or casual eaters (quick and easy meals).
 
 ## Integration and APIs
@@ -31,7 +31,7 @@ Food Recommendation System designed to suggest dishes to users based on various 
 
 ### Optimizing the Output Results Time
 
-One of the primary challenges encountered was the time taken to generate a single dish recommendation, which is approximately 15 minutes. To address this, the following strategies were implemented:
+One of the primary challenges encountered was the time to generate a single dish recommendation, which is approximately 15 minutes. To address this, the following strategies were implemented:
 
 Caching Web Search Results: To reduce repeated web search queries and improve response times, we attempted storing search results in cache memory. This approach aimed to speed up subsequent searches by reusing previously fetched data.
 
