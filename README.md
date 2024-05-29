@@ -64,3 +64,10 @@ Despite these efforts, further optimization is necessary to achieve acceptable p
 
 ## Conclusion
   This experimental project demonstrates the potential of using Crew AI agents to tackle complex tasks such as personalized dish recommendations. While the results are promising, the current processing time of      approximately 15 minutes per recommendation needs optimization for practical use.
+
+## Working Demo
+
+
+
+https://github.com/Vaishnavi-cyber-blip/Food_Recommend/assets/72164140/b783c7dc-a0a4-4a31-8e58-2287e581e190
+
