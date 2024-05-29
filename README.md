@@ -4,17 +4,17 @@ Food Recommendation System is designed to suggest dishes to users based on vario
 
 ## System Components
 #### 1. Crew AI Agents
-  Food Expert: Provides expertise on various cuisines and dishes.
+    Food Expert: Provides expertise on various cuisines and dishes.
   
-  Food Influencer: Recommends trending and popular dishes.
+    Food Influencer: Recommends trending and popular dishes.
   
-  Nutritionist: Suggests dishes based on dietary preferences and nutritional needs.
+    Nutritionist: Suggests dishes based on dietary preferences and nutritional needs.
 
 #### 2. Travily Search API
-  Performs web searches to gather information about dishes, restaurants, and food trends.
+    Performs web searches to gather information about dishes, restaurants, and food trends.
 
 #### 3. Groq Integrated Llama 3 Model
-  A state-of-the-art language model used for natural language processing and understanding user inputs.
+    A state-of-the-art language model used for natural language processing and understanding user inputs.
 
 ## Features
 #### Personalized Recommendations
