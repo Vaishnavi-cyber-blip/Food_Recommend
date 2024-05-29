@@ -16,6 +16,9 @@ Performs web searches to gather information about dishes, restaurants, and food 
 #### 3. Groq Integrated Llama 3 Model
 A state-of-the-art language model used for natural language processing and understanding user inputs.
 
+#### 4. Streamlit
+Provide a frontend to the application.
+
 ## Features
 #### Personalized Recommendations
   Weather-Based Suggestions: Recommends dishes based on the current weather (e.g., hot soups for cold weather).
