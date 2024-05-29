@@ -36,6 +36,17 @@ Food Recommendation System is designed to suggest dishes to users based on vario
   soaked in a sweet syrup.
   The reason I recommend Saravana Bhawan is because of its authentic South Indian cuisine and the variety of dishes available. The restaurant is also known for its vibrant atmosphere and the unique experience it    offers.
 
+#### Input:
+  Weather: Sunny, Mood: Sad, Location: Lucknow, No dieting,Non Veg, Persona: food lover
+
+#### Output:
+  The top 3 non-veg dishes from Lucknow that can lift someone's mood on a sunny day are:
+  Tunday Kebab: A signature dish of Lucknow, Tunday Kebab is a must-try. The tender kebabs are cooked with a special masala containing hundreds of spices, making it a perfect dish to lift your mood on a sunny day.
+  Murg Shahi Korma: This creamy chicken curry is a traditional royal recipe of the Lucknawi cuisine. The combination of crispy fried potatoes stuffed with paneer and traditional spices, blended with savory     
+  tomato, onion gravy and served hot, is a perfect comfort food to soothe a sad mood on a sunny day.
+  Yakhni: This Kashmiri dish has gained popularity in Lucknow, and for good reason. The creamy chicken curry with a distinct nutty taste, laced with piquant spices, is sure to lift your spirits on a gloomy day.
+  These dishes are not only delicious but also have a special significance in Lucknow's culinary culture. They are sure to satisfy your taste buds and lift your mood on a sunny day.
+
 ## Challenges
 
 ### Optimizing the Output Results Time
