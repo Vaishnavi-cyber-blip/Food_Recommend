@@ -10,8 +10,11 @@ from langchain_groq import ChatGroq
 
 # Load environment variables
 load_dotenv()
-groq_api_key = os.environ["GROQ_API_KEY"]
-tavily_api_key = os.environ["TAVILY_API_KEY"]
+# groq_api_key = os.environ["GROQ_API_KEY"]
+# tavily_api_key = os.environ["TAVILY_API_KEY"]
+
+groq_api_key = "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"
+tavily_api_key = "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"
 
 # Initialize LLM once
 llm = ChatGroq(api_key=groq_api_key, model="llama3-8b-8192")
@@ -118,8 +121,24 @@ def create_crewai_setup(mausam, mood, type, category, location, diet):
 
 def main():
     st.set_page_config(page_title="ZOMA", page_icon="🍙", layout="centered")
-    st.header("ZOMA")
-    st.markdown("""<style>/* Your CSS styles here */</style>""", unsafe_allow_html=True)
+    
+    st.markdown(
+        """
+        <style>
+    .centered-header {
+            text-align: center;
+            color: white;
+        }
+    .result-box {
+
+            background-color: #f0f0f0;
+            
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+        
+    st.markdown('<h1 class="centered-header">ZOMA</h1>', unsafe_allow_html=True)
 
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -137,10 +156,12 @@ def main():
     with col6:
         category = st.selectbox('Veg or non-veg:', ('Veg', 'Non-veg'))
 
-    if st.button('Find My Perfect Meal'):
-        st.write('Loading...')
-        crew_result = create_crewai_setup(mausam, mood, type, category, location, diet)
-        st.write(crew_result)
+    col7, col8, col9 = st.columns(3)
+    with col8:
+        if st.button('Find My Perfect Meal'):
+            with st.spinner('Loading...'):
+                crew_result = create_crewai_setup(mausam, mood, type, category, location, diet)
+            st.markdown(f'<div class="result-box">{crew_result}</div>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
