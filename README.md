@@ -5,7 +5,9 @@ Food Recommendation System is designed to suggest dishes to users based on vario
 ## System Components
 #### 1. Crew AI Agents
   Food Expert: Provides expertise on various cuisines and dishes.
+  
   Food Influencer: Recommends trending and popular dishes.
+  
   Nutritionist: Suggests dishes based on dietary preferences and nutritional needs.
 
 #### 2. Travily Search API
