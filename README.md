@@ -27,11 +27,20 @@ Food Recommendation System is designed to suggest dishes to users based on vario
   Travily Search API: Fetches real-time data and reviews to enhance recommendations.
   Groq Integrated Llama 3 Model: Enhances the system's understanding of complex user queries and preferences.
 
+## Results
+#### Input:
+  Weather: Cold, Mood: happy, Location: Delhi, No dieting, Pure Veg, Persona: food lover
+#### Output:
+  I highly recommend visiting Saravana Bhawan, located at three outlets in Delhi. This legendary restaurant is known for its authentic South Indian cuisine and deserts. Specifically, I recommend trying their     
+  South Indian dishes, such as the Vegetable Kurma, Rava Kesari, and their signature dish, the Saravana Bhawan's Sambar. Additionally, don't miss their signature dessert, the Gulab Jamun, a deep-fried dumpling 
+  soaked in a sweet syrup.
+  The reason I recommend Saravana Bhawan is because of its authentic South Indian cuisine and the variety of dishes available. The restaurant is also known for its vibrant atmosphere and the unique experience it    offers.
+
 ## Challenges
 
 ### Optimizing the Output Results Time
 
-One of the primary challenges encountered was the time to generate a single dish recommendation, which is approximately 15 minutes. To address this, the following strategies were implemented:
+One of the primary challenges encountered was the time to generate a single dish recommendation, which is approximately 12-15 minutes. To address this, the following strategies were implemented:
 
 Caching Web Search Results: To reduce repeated web search queries and improve response times, we attempted storing search results in cache memory. This approach aimed to speed up subsequent searches by reusing previously fetched data.
 
