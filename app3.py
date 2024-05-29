@@ -10,11 +10,8 @@ from langchain_groq import ChatGroq
 
 # Load environment variables
 load_dotenv()
-# groq_api_key = os.environ["GROQ_API_KEY"]
-# tavily_api_key = os.environ["TAVILY_API_KEY"]
-
-groq_api_key = "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"
-tavily_api_key = "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"
+groq_api_key = os.environ["GROQ_API_KEY"]
+tavily_api_key = os.environ["TAVILY_API_KEY"]
 
 # Initialize LLM once
 llm = ChatGroq(api_key=groq_api_key, model="llama3-8b-8192")
